@@ -73,6 +73,18 @@ const MyNavbar = ({ showSearchResult }) => {
           >
             My List
           </div>
+          <Link to="/register">
+          <div
+              className={
+                "nav-link font-weight-bold" +
+                (location.pathname === "/register" ? " active" : "")
+              }
+            >
+              Register
+            </div>
+          
+          
+          </Link>
         </Nav>
         <span className="d-flex align-items-center">
           <InputGroup className="icons">
